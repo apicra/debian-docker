@@ -1,7 +1,7 @@
 # First, update your existing list of packages:
 sudo apt update
 # Next, install a few prerequisite packages which let apt use packages over HTTPS:
-sudo apt install apt-transport-https ca-certificates curl gnupg2 software-properties-common
+sudo apt install -y apt-transport-https ca-certificates curl gnupg2 software-properties-common
 # Then add the GPG key for the official Docker repository to your system:
 curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
 # Add the Docker repository to APT sources:
